@@ -111,7 +111,7 @@ function SupplyChain() {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/api/shipments"
+        "https://pharma-guard-app.onrender.com/api/shipments"
       );
 
       const data =
@@ -158,7 +158,7 @@ function SupplyChain() {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/api/medicines"
+        "https://pharma-guard-app.onrender.com/api/medicines"
       );
 
       const data =
@@ -252,7 +252,7 @@ function SupplyChain() {
     try {
 
       const response = await fetch(
-        "http://localhost:5000/api/shipments",
+        "https://pharma-guard-app.onrender.com/api/shipments",
         {
 
           method: "POST",
@@ -362,7 +362,7 @@ function SupplyChain() {
 
       const response = await fetch(
 
-        `http://localhost:5000/api/shipments/${selectedShipment.id}/status`,
+        `https://pharma-guard-app.onrender.com/api/shipments/${selectedShipment.id}/status`,
 
         {
 

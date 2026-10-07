@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { Plus, Search, Trash2, X } from "lucide-react";
 
-const API_URL = "http://localhost:5000/api";
+const API_URL = "https://pharma-guard-app.onrender.com/api";
 
 function Medicines() {
   const [medicines, setMedicines] = useState([]);

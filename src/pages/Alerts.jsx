@@ -22,7 +22,7 @@ function Alerts() {
   const loadAlerts = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/alerts"
+        "https://pharma-guard-app.onrender.com/api/alerts"
       );
 
       const data = await response.json();
@@ -45,7 +45,7 @@ function Alerts() {
   const acknowledgeAlert = async (id) => {
     try {
       const response = await fetch(
-        `http://localhost:5000/api/alerts/${id}`,
+        `https://pharma-guard-app.onrender.com/api/alerts/${id}`,
         {
           method: "DELETE",
         }

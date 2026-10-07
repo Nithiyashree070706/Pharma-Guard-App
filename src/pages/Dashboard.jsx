@@ -153,11 +153,11 @@ function Dashboard() {
         shipmentsResponse,
       ] = await Promise.all([
 
-        fetch("http://localhost:5000/api/medicines"),
+        fetch("https://pharma-guard-app.onrender.com/api/medicines"),
 
-        fetch("http://localhost:5000/api/alerts"),
+        fetch("https://pharma-guard-app.onrender.com/api/alerts"),
 
-        fetch("http://localhost:5000/api/shipments"),
+        fetch("https://pharma-guard-app.onrender.com/api/shipments"),
 
       ]);
 

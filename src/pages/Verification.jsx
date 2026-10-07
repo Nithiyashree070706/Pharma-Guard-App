@@ -29,7 +29,7 @@ function Verification() {
   const loadAlertCount = async () => {
     try {
       const response = await fetch(
-        "http://localhost:5000/api/alerts"
+        "https://pharma-guard-app.onrender.com/api/alerts"
       );
 
       if (!response.ok) {
@@ -65,7 +65,7 @@ function Verification() {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/verify",
+        "https://pharma-guard-app.onrender.com/api/verify",
         {
           method: "POST",
           headers: {
